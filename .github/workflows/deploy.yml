@@ -39,4 +39,4 @@ jobs:
       MONGODB_DB_NAME: gha-demo
     steps:
       - name: Output information
-        run: echp "Deployment completed"
+        run: echo "Deployment completed"
